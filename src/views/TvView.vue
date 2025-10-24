@@ -79,7 +79,7 @@ const isLoading = ref(false);
 }
 
 .genre-item {
-  background-color: #7d8a2e;
+  background-color: rgb(76, 16, 110);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -87,8 +87,8 @@ const isLoading = ref(false);
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #7d8a2e;
-  box-shadow: 0 0 0.5rem #5d6424;
+  background-color: rgb(47, 8, 70);
+  box-shadow: 0 0 0.5rem rgb(61, 13, 92);
 }
 
 .tv-list {
@@ -133,7 +133,7 @@ const isLoading = ref(false);
 }
 
 .tv-genres span {
-  background-color: #748708;
+  background-color:  rgb(76, 16, 110);
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -143,17 +143,17 @@ const isLoading = ref(false);
 
 .tv-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color:  rgb(76, 16, 110);
+  box-shadow: 0 0 0.5rem rgb(47, 8, 70);
 }
 
 .active {
-  background-color: #67b086;
+  background-color:  rgb(76, 16, 110);
   font-weight: bolder;
 }
 
 .tv-genres span.active {
-  background-color: #abc322;
+  background-color: rgb(157, 91, 219);
   color: #000;
   font-weight: bolder;
 }

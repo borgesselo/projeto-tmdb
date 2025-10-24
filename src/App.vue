@@ -30,7 +30,7 @@ onMounted(async () => {
 header {
   height: 3rem;
   display: flex;
-  background-color: black;
+  background-color: rgb(47, 8, 70);
   color: #fff;
   font-size: 1.2rem;
   padding-left: 2rem;
@@ -47,4 +47,5 @@ nav a {
   text-decoration: none;
   color: #fff;
 }
+
 </style>
